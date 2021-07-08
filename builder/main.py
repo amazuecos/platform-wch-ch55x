@@ -165,7 +165,6 @@ if upload_protocol == "stcgal":
 elif upload_protocol == "custom":
     upload_actions = [env.VerboseAction("$UPLOADCMD", "Uploading $SOURCE")]
     upload_actions = [
-    ".\hex2bin.exe .pio/build/wch-ch55x/firmware.hex",
     ".\chflasher .pio/build/wch-ch55x/firmware.bin"]
 else:
     sys.stderr.write("Warning! Unknown upload protocol %s\n" % upload_protocol)
