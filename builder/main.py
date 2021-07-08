@@ -164,7 +164,9 @@ if upload_protocol == "stcgal":
 # custom upload tool
 elif upload_protocol == "custom":
     upload_actions = [env.VerboseAction("$UPLOADCMD", "Uploading $SOURCE")]
-    upload_actions = ["chflasher"]
+    upload_actions = [
+    ".\hex2bin .pio/build/"+env.get("platform")+"/firmware.hex .pio/build/"+env.get("platform")+"/firmware.bin",
+    ".\chflasher .pio/build/"+env.get("platform")+"/firmware.bin"]
 else:
     sys.stderr.write("Warning! Unknown upload protocol %s\n" % upload_protocol)
 
