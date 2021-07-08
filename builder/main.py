@@ -165,6 +165,7 @@ if upload_protocol == "stcgal":
 elif upload_protocol == "custom":
     upload_actions = [env.VerboseAction("$UPLOADCMD", "Uploading $SOURCE")]
     upload_actions = [
+    "echo upload"
     ".\hex2bin .pio/build/"+env.get("platform")+"/firmware.hex .pio/build/"+env.get("platform")+"/firmware.bin",
     ".\chflasher .pio/build/"+env.get("platform")+"/firmware.bin"]
 else:
