@@ -1,7 +1,7 @@
 {
-  "name": "intel_mcs51",
-  "title": "Intel MCS-51 (8051)",
-  "description": "The Intel MCS-51 (commonly termed 8051) is an internally Harvard architecture, complex instruction set computer (CISC) instruction set, single chip microcontroller (uC) series developed by Intel in 1980 for use in embedded systems.",
+  "name": "wch-ch55x",
+  "title": "WCH CH55X",
+  "description": "The CH55x chip is an enhanced E8051 core microcontroller compatible with the MCS51 instruction set.",
   "homepage": "https://en.wikipedia.org/wiki/Intel_MCS-51",
   "license": "Apache-2.0",
   "keywords": [
