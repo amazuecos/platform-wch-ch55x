@@ -18,7 +18,7 @@ upload_protocol = custom
 #monitor_speed = 57600 
 ```
 
-Or install locally cloning  https://github.com/amn97pi/platform-wch-ch55x.git in C:\$USER\Documents\.platformio\platform
+Or install locally cloning  https://github.com/amn97pi/platform-wch-ch55x.git in C:\%SUERNAME%\.platformio\platforms
 
 ```ini
 [env:ch559]
