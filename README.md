@@ -38,3 +38,4 @@ upload_protocol = custom
 2. Download [hex2bin.exe](https://sourceforge.net/projects/gnuwin32/files/hex2bin/1.02/hex2bin-1.02-bin.zip/download?use_mirror=deac-fra&download=)
 3. On windows install [zadig](https://zadig.akeo.ie/) and install libusb-win32 driver
 4. Copy chflasher.exe and hex2bin.exe (or add to the path)in your project folder for upload from vscode with platformio 
+5. In platformio.ini add upload_procotol = custom
