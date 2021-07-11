@@ -2,7 +2,7 @@
   "name": "wch-ch55x",
   "title": "WCH CH55X",
   "description": "The CH55x chip is an enhanced E8051 core microcontroller compatible with the MCS51 instruction set.",
-  "homepage": "https://en.wikipedia.org/wiki/Intel_MCS-51",
+  "homepage": "http://www.wch-ic.com/",
   "license": "Apache-2.0",
   "keywords": [
       "dev-platform",
